@@ -25,6 +25,8 @@ This repository, as well as Data Generation repository, both contain a text file
 
 Below are the some screenshots of the assignment in some scenarios :
 
+
+| Default Home Screen | Second Tab on Home Screen |
 |<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="Default Home Screen" title="Default Home Screen" height="600"/>
 | <img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/TabSwitch.png" alt="Second Tab on Home Screen" title="Second Tab on Home Screen" height="600"/>
 |
