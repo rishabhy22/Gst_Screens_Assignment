@@ -25,7 +25,7 @@ This repository, as well as Data Generation repository, both contain a text file
 
 Below are the some screenshots of the assignment in some scenarios :
 
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="drawing" height="200"/>
+<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="drawing" height="600"/>
 
 ![alt text](https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png "Default Home Screen")
 
