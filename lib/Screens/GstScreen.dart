@@ -391,7 +391,7 @@ class GstScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: SizeConfig.screenHeight! * 0.0932,
+                          height: SizeConfig.screenHeight! * 0.0928,
                         ),
                       ],
                     ),
