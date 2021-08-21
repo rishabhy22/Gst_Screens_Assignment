@@ -25,13 +25,17 @@ This repository, as well as Data Generation repository, both contain a text file
 
 Below are the some screenshots of the assignment in some scenarios :
 
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="Default Home Screen" title="Default Home Screen" height="600"/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/TabSwitch.png" alt="Second Tab on Home Screen" title="Second Tab on Home Screen" height="600"/>
+|<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="Default Home Screen" title="Default Home Screen" height="600"/>
+| <img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/TabSwitch.png" alt="Second Tab on Home Screen" title="Second Tab on Home Screen" height="600"/>
+|
 <br/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/OnInvalidNumber.png" alt="Invalid Number Entered" title="Invalid Number Entered" height="600"/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/OnConnectionError.png" alt="Connection Error Occurs" title="Connection Error Occurs" height="600"/>
+|<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/OnInvalidNumber.png" alt="Invalid Number Entered" title="Invalid Number Entered" height="600"/>
+| <img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/OnConnectionError.png" alt="Connection Error Occurs" title="Connection Error Occurs" height="600"/>
+|
 <br/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/Screenshot_1629530323.png" alt="Entering a valid GSTIN number" title="Entering a valid GSTIN number" height="600"/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/Loading.png" alt="Loading and fetching information" title="Loading and fetching information" height="600"/>
+|<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/Screenshot_1629530323.png" alt="Entering a valid GSTIN number" title="Entering a valid GSTIN number" height="600"/>
+| <img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/Loading.png" alt="Loading and fetching information" title="Loading and fetching information" height="600"/>
+|
 <br/>
-<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/GstInformation.png" alt="GST profile displayed if gstin number is valid" title="GST profile displayed if gstin number is valid" height="600"/>
+|<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/GstInformation.png" alt="GST profile displayed if gstin number is valid" title="GST profile displayed if gstin number is valid" height="600"/>
+|
