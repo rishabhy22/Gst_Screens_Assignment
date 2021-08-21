@@ -51,6 +51,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
               child: isFirst
                   ? Container(
                       color: Colors.white,
+                      key: ValueKey<int>(0),
                       padding: EdgeInsets.only(
                         left: SizeConfig.blockSizeHorizontal! * 10,
                         right: SizeConfig.blockSizeHorizontal! * 10,
@@ -101,14 +102,17 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                                     setState(() {
                                       isLoading = true;
                                     });
-                                    if (gstNumber.isNotEmpty &&
-                                        await GstBloc().gstInExists(gstNumber))
+                                    int res =
+                                        await GstBloc().gstInExists(gstNumber);
+                                    if (gstNumber.isNotEmpty && res == 0)
                                       RoutesBloc().toRoute(Routes.GSTSCREEN);
                                     else
                                       ScaffoldMessenger.of(context)
                                           .showSnackBar((SnackBar(
                                         content: Text(
-                                            "GST number invalid or does not exists",
+                                            res == 1
+                                                ? "GST number invalid or does not exists"
+                                                : "Connection Error",
                                             style: TextStyle(
                                                 fontWeight: FontWeight.bold)),
                                         action: SnackBarAction(
@@ -155,6 +159,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                     )
                   : Container(
                       color: Colors.white,
+                      key: ValueKey<int>(1),
                       alignment: Alignment.center,
                       padding: EdgeInsets.only(
                         left: SizeConfig.blockSizeHorizontal! * 10,
@@ -173,7 +178,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xffB5B5B5),
                                 fontSize: SizeConfig.blockSizeVertical! * 6),
-                          )
+                          ),
+                          SizedBox(height: SizeConfig.screenHeight! * 0.532)
                         ],
                       ),
                     ),

@@ -20,15 +20,19 @@ class GstBloc {
 
   Stream<GstInfo> get getGstInfo => gstInfoStream.stream;
 
-  Future<bool> gstInExists(String gstIn) async {
-    DocumentSnapshot docSnap = await gstINs.doc(gstIn).get();
+  Future<int> gstInExists(String gstIn) async {
+    try {
+      DocumentSnapshot docSnap = await gstINs.doc(gstIn).get();
 
-    if (docSnap.exists) {
-      setGstInfo(GstInfo.fromDocumentSnapshot(docSnap));
-      return true;
+      if (docSnap.exists) {
+        setGstInfo(GstInfo.fromDocumentSnapshot(docSnap));
+        return 0;
+      }
+
+      return 1;
+    } catch (e) {
+      return -1;
     }
-
-    return false;
   }
 
   void dispose() {
