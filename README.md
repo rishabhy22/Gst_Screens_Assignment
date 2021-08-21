@@ -1,5 +1,7 @@
 # GST Search Screens Assignment
 
+- Small app to diplay mock gst information written in Flutter framework and using Firebase as serverless backend.
+
 - As asked in assignment, first screen enables searches for gstin from an api, 
 and second screen shows details fetched using provided gstin.
 
@@ -26,7 +28,6 @@ This repository, as well as Data Generation repository, both contain a text file
 Below are the some screenshots of the assignment in some scenarios :
 
 
-| Default Home Screen | Second Tab on Home Screen |
 |<img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/HomeScreen.png" alt="Default Home Screen" title="Default Home Screen" height="600"/>
 | <img src="https://github.com/rishabhy22/Gst_Screens_Assignment/blob/main/Screenshots/TabSwitch.png" alt="Second Tab on Home Screen" title="Second Tab on Home Screen" height="600"/>
 |
